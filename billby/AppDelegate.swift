@@ -12,10 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var navigationController : UINavigationController!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        let startViewControler = StartViewController()
+        self.navigationController = UINavigationController(rootViewController: startViewControler)
+        
+        self.navigationController.isNavigationBarHidden =  true
+        
+        self.window?.rootViewController = navigationController
+        
         return true
     }
 

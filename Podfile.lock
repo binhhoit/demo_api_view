@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (4.7.0)
+  - DropDown (2.3.1)
+  - MarqueeLabel/Swift (3.1.4)
+  - ObjectMapper (3.1.0)
+  - Presentr (1.3)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - DropDown
+  - MarqueeLabel/Swift
+  - ObjectMapper (~> 3.1)
+  - Presentr
+  - SwiftyJSON (~> 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
+  MarqueeLabel: bf768455fe88d427f71476ebb23f9092b660f40b
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Presentr: 3f0825a42cb32ecd8fc6b6d0b0de87d7d0b42482
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: dad744fd742e3aa475c2e1b3d2623e82432ad7fd
+
+COCOAPODS: 1.4.0
